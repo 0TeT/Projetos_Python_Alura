@@ -1,10 +1,10 @@
-### Projetos em Python 
+## Projetos em Python 
 
-## Objetivo é Praticar
+### Objetivo é Praticar
 
 - Logisca de Programação
 - Desenvolver e Melhor na Linguagem Python
 
-### Projetos
+## Projetos
 
-## Gorjetas de Restaurantes
+### Gorjetas de Restaurantes
