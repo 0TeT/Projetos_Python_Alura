@@ -22,6 +22,8 @@ Uma ferramenta interativa desenvolvida para facilitar o cálculo do valor total 
 * **Tratamento de Erros (`try/except`):** Implementação de travas de segurança para evitar que o programa quebre caso o usuário digite um texto no lugar de números.
 * **Automação do Sistema (Biblioteca `os`):** Uso do módulo nativo `os` para limpar o terminal a cada tela, melhorando consideravelmente a experiência e a navegação do usuário.
 
+---
+
 ## Validador CPF
 
 Um sistema desenvolvido para tratar, limpar e validar strings de CPF informadas pelo usuário. O projeto foca em garantir a integridade dos dados antes de qualquer processamento posterior.
