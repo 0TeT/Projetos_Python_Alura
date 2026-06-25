@@ -33,3 +33,13 @@ Um sistema desenvolvido para tratar, limpar e validar strings de CPF informadas 
 * **Expressões Regulares (Biblioteca `re`):** Utilização de máscaras de Regex para higienizar a entrada de dados, removendo pontuações (`.`, `,`, `-`) e caracteres indesejados de forma eficiente.
 * **Composição de Funções (Dupla Verificação):** Arquitetura de código baseada em responsabilidade única, onde uma função é encarregada de limpar e garantir a tipagem dos dados (`validar_numero`) para só então acionar a função especialista em regras de negócio (`validar_cpf`).
 * **Tratamento de Exceções (`try/except`):** Captura ativa de erros de conversão (`ValueError`), impedindo o travamento da aplicação caso dados alfabéticos sejam inseridos.
+
+## Contagem de Vogais
+
+Um programa focado em manipulação de strings que analisa um texto fornecido pelo usuário, identificando e contabilizando a quantidade total de vogais presentes.
+
+### Conceitos Aplicados e Aprendizados
+
+* **Operadores de Associação (`in`):** Uso do operador `in` combinado com estruturas condicionais (`if`) para verificar a existência de caracteres de forma direta dentro de uma coleção de vogais.
+* **Manipulação de Strings (`.lower()`):** Aplicação de métodos de padronização de texto para converter a entrada do usuário em letras minúsculas, garantindo a precisão da contagem independente da formatação original.
+* **Otimização de Estruturas:** Compreensão sobre a diferença de performance ao buscar elementos dentro de sequências, evoluindo o uso de listas (`list`) para conjuntos (`set`) buscando maior eficiência.
