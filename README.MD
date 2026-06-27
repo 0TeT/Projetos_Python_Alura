@@ -34,6 +34,8 @@ Um sistema desenvolvido para tratar, limpar e validar strings de CPF informadas 
 * **Composição de Funções (Dupla Verificação):** Arquitetura de código baseada em responsabilidade única, onde uma função é encarregada de limpar e garantir a tipagem dos dados (`validar_numero`) para só então acionar a função especialista em regras de negócio (`validar_cpf`).
 * **Tratamento de Exceções (`try/except`):** Captura ativa de erros de conversão (`ValueError`), impedindo o travamento da aplicação caso dados alfabéticos sejam inseridos.
 
+---
+
 ## Contagem de Vogais
 
 Um programa focado em manipulação de strings que analisa um texto fornecido pelo usuário, identificando e contabilizando a quantidade total de vogais presentes.
@@ -43,3 +45,15 @@ Um programa focado em manipulação de strings que analisa um texto fornecido pe
 * **Operadores de Associação (`in`):** Uso do operador `in` combinado com estruturas condicionais (`if`) para verificar a existência de caracteres de forma direta dentro de uma coleção de vogais.
 * **Manipulação de Strings (`.lower()`):** Aplicação de métodos de padronização de texto para converter a entrada do usuário em letras minúsculas, garantindo a precisão da contagem independente da formatação original.
 * **Otimização de Estruturas:** Compreensão sobre a diferença de performance ao buscar elementos dentro de sequências, evoluindo o uso de listas (`list`) para conjuntos (`set`) buscando maior eficiência.
+
+---
+
+## Filtro de Palavras Longas
+
+Um script desenvolvido para analisar strings e extrair palavras complexas (com 10 ou mais caracteres). É um excelente exemplo de como realizar processos de tokenização e filtragem de textos.
+
+### Conceitos Aplicados e Aprendizados
+
+* **Manipulação de Listas (`.append()`):** Utilização de estruturas de repetição (`for`) para varrer coleções e isolar dados específicos dentro de uma nova lista dinâmica.
+* **Higienização de Strings (Tokenização):** Divisão de strings em blocos de palavras (`.split()`) combinada com substituição de caracteres para evitar que pontuações interfiram na contagem de caracteres.
+* **Saída de Dados Formatada:** Uso do operador de desempacotamento (`*`) junto ao parâmetro `sep` no método `print` para exibir listas de forma limpa e legível no terminal.
