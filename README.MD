@@ -57,3 +57,15 @@ Um script desenvolvido para analisar strings e extrair palavras complexas (com 1
 * **Manipulação de Listas (`.append()`):** Utilização de estruturas de repetição (`for`) para varrer coleções e isolar dados específicos dentro de uma nova lista dinâmica.
 * **Higienização de Strings (Tokenização):** Divisão de strings em blocos de palavras (`.split()`) combinada com substituição de caracteres para evitar que pontuações interfiram na contagem de caracteres.
 * **Saída de Dados Formatada:** Uso do operador de desempacotamento (`*`) junto ao parâmetro `sep` no método `print` para exibir listas de forma limpa e legível no terminal.
+
+---
+
+## Gerador de Senhas Aleatórias
+
+Um script desenvolvido para automatizar a criação de senhas fortes e aleatórias, combinando letras (maiúsculas e minúsculas), dígitos numéricos e caracteres especiais.
+
+### Conceitos Aplicados e Aprendizados
+
+* **Mapeamento de Caracteres (Biblioteca `string`):** Uso de constantes nativas do Python para criar um banco completo e seguro de caracteres sem a necessidade de digitação manual de arrays.
+* **Seleção Aleatória Multipla (`random.choices`):** Aplicação de amostragem aleatória com reposição para selecionar múltiplos elementos de forma simultânea com base em um tamanho predefinido.
+* **Conversão de Dados (`.join()`):** Conversão eficiente de uma estrutura de lista (`list`) de caracteres para uma string unificada e pronta para exibição.
