@@ -82,3 +82,16 @@ Um simulador interativo do clássico jogo Jokenpô que roda diretamente no termi
 * **Simplificação de Condicionais (Lógica Booleana):** Redução drástica de blocos `if/else` aninhados através do agrupamento das regras de vitória em uma única expressão condicional composta (`and`/`or`).
 * **Tratamento de Strings (`.lower().strip()`):** Higienização ativa dos dados inseridos pelo usuário para mitigar falhas causadas por espaços acidentais ou variações de caixa alta/baixa.
 * **Gerenciamento de Exceções (`try/except`):** Implementação de capturas genéricas para garantir que erros inesperados de runtime não causem o fechamento abrupto do terminal.
+
+---
+
+## Jogo de Adivinhação Numérica
+
+Um jogo interativo de console onde o usuário tenta adivinhar um número pseudoaleatório gerado pelo computador, contando com dicas dinâmicas e rastreamento de tentativas.
+
+### Conceitos Aplicados e Aprendizados
+
+* **Geração de Intervalos (`random.randint`):** Configuração de escopo local para garantir a geração de um novo número secreto a cada inicialização da função.
+* **Lançamento de Exceções Customizadas (`raise`):** Uso do `raise ValueError` para desviar intencionalmente o fluxo do código para o bloco de tratamento, unificando a validação de regras de negócio e dados de entrada.
+* **Acumuladores e Contadores:** Implementação de controle de estado simples para registrar e exibir o total de tentativas do usuário após a quebra do laço principal.
+* **Isolamento de Escopo:** Aplicação correta de variáveis locais para evitar a poluição do escopo global do script Python.
