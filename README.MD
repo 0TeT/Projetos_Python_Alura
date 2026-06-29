@@ -69,3 +69,16 @@ Um script desenvolvido para automatizar a criação de senhas fortes e aleatóri
 * **Mapeamento de Caracteres (Biblioteca `string`):** Uso de constantes nativas do Python para criar um banco completo e seguro de caracteres sem a necessidade de digitação manual de arrays.
 * **Seleção Aleatória Multipla (`random.choices`):** Aplicação de amostragem aleatória com reposição para selecionar múltiplos elementos de forma simultânea com base em um tamanho predefinido.
 * **Conversão de Dados (`.join()`):** Conversão eficiente de uma estrutura de lista (`list`) de caracteres para uma string unificada e pronta para exibição.
+
+---
+
+## Jogo: Pedra, Papel e Tesoura (Jokenpô)
+
+Um simulador interativo do clássico jogo Jokenpô que roda diretamente no terminal, focado em lógica booleana otimizada e prevenção de falhas de memória.
+
+### Conceitos Aplicados e Aprendizados
+
+* **Controle de Fluxo Seguro (`while True`):** Substituição de estruturas recursivas por um laço de repetição contínuo combinado com `continue` e `break`, blindando a aplicação contra estouros de pilha de memória (`RecursionError`).
+* **Simplificação de Condicionais (Lógica Booleana):** Redução drástica de blocos `if/else` aninhados através do agrupamento das regras de vitória em uma única expressão condicional composta (`and`/`or`).
+* **Tratamento de Strings (`.lower().strip()`):** Higienização ativa dos dados inseridos pelo usuário para mitigar falhas causadas por espaços acidentais ou variações de caixa alta/baixa.
+* **Gerenciamento de Exceções (`try/except`):** Implementação de capturas genéricas para garantir que erros inesperados de runtime não causem o fechamento abrupto do terminal.
