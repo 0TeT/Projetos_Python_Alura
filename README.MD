@@ -95,3 +95,16 @@ Um jogo interativo de console onde o usuário tenta adivinhar um número pseudoa
 * **Lançamento de Exceções Customizadas (`raise`):** Uso do `raise ValueError` para desviar intencionalmente o fluxo do código para o bloco de tratamento, unificando a validação de regras de negócio e dados de entrada.
 * **Acumuladores e Contadores:** Implementação de controle de estado simples para registrar e exibir o total de tentativas do usuário após a quebra do laço principal.
 * **Isolamento de Escopo:** Aplicação correta de variáveis locais para evitar a poluição do escopo global do script Python.
+
+---
+
+## Calculadora Robusta de Console
+
+Um utilitário de terminal para cálculos aritméticos básicos que implementa manipulação avançada de exceções e validação rigorosa de tipos de dados.
+
+### Conceitos Aplicados e Aprendizados
+
+* **Retornos Antecipados (`Early Return`):** Otimização da função de cálculo utilizando `return` imediato em cada ramificação condicional, eliminando variáveis temporárias e melhorando a legibilidade.
+* **Interpretação Dinâmica de Exceções:** Uso de `str(e).startswith()` no bloco `except` para identificar a origem exata do `ValueError` (distinguindo erros de digitação de strings de erros de operadores inválidos).
+* **Prevenção de Falhas Aritméticas (`ZeroDivisionError`):** Captura nativa e tratamento amigável para tentativas de divisão por zero, evitando o crash do sistema.
+* **Suporte a Ponto Flutuante (`float`):** Conversão explícita de entradas numéricas para permitir operações precisas com valores decimais, limitada a duas casas através da função `round()`.
